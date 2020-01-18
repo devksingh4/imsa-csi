@@ -7,24 +7,54 @@
         <meta property="og:title" content="About Barack Obama"/>
         <meta property="og:description" content="CSI - Dev Singh"/>
         <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="materialize.min.css"> <!-- Use it to do the nice looking webpage (transparency, fonts, navbar, etc, parralax) Also provides a better syntax for maintainability.  -->
+        <link rel="stylesheet" href="materialize.min.css"> <!-- Use it to do the nice looking webpage (transparency, fonts, navbar, etc, parralax) Also provides a better syntax for maintainability. Hereby referred to as mmcss -->
         <link rel="stylesheet" href="index.css">
     </head>
-    <body class="parallax"> <!-- Nice Loading Animation-->
+    <body class="parallax center" style="font-family: sans-serif; font-size: large; color:white"> <!-- Nice Loading Animation-->
         <nav class="transparent z-index-1 animate-fly-top">
             <div class="nav-wrapper">
             <a href="#" class="brand-logo center">About Barack Obama</a>
         </nav>        
         <div name="importance" id="importance" class="info">
-            <h2 class="center white-text">Why is Barack Obama important?</h2>
+            <h2 class="center white-text">Why is Barack Obama important?</h2> <!-- white-text, center, parallax, nav-wrapper are all classes of materialize (they do what the names say)-->
             <h6 class="center white-text"></h6>
         </div>
+        <div name="pics" id="pics" class="pics">
+            <table class="highlight white-text centered responsive-table" style="border-style: dotted;"> <!-- highlight class provided by mmcss to highlight selected cell. responsive-table scales to device sizes-->
+                <h5>Barack Obama: Civil Rights</h5>
+                <thead class="centered"> <!-- Class "centered" provided by mmcss-->
+                    <tr>
+                        <th>Photos</th>
+                        <th>Achievements</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>  
+                        <td>
+                        <a href="https://tinyurl.com/obama-info" target="_blank">
+                            <img target="_blank" src="img/obama-official.jpg" title="Obama Official" style="height: 20vh; width: 20vh">
+                            <img src="img/obama-lewis.jpg" title="Obama with John Lewis" style="height: 20vh; width: 25vh">
+                        </a>
+                        </td>
+                        <td>
+                            <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/10/14/progress-african-american-community-during-obama-administration" target="_blank">
+                                <img target="_blank" src="img/obama-trump.jpg" title="Obama reacting to Trump" style="height: 20vh; width: 30vh">
+                            </a>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <div name="ff" id="ff" class="info">
-            <h2 class="center white-text">Fun Facts about Barack Obama</h2>
-            <h6 class="center white-text">
+            <h2 href="source.html" class="center white-text">Fun Facts about Barack Obama</h2>
+                <ul class="collection white-text transparent">
+                    <li class="collection-item transparent">Obama is the 44th president of the United States, and the only African American president of the United States.</li>
+                    <li class="collection-item transparent">Obama's name means "one who is blessed" in Swahili.</li>
+                    <li class="collection-item transparent">Obama's time in office marked a "a larger percentage-point decline in the recovery, falling much faster than the overall unemployment rate over the last year [2010]".</li>
+                    <li class="collection-item transparent">Obama was named Time's Person of the Year, once in 2008 and once in 2012.</li>
+                  </ul>
                 
             </h6>
         </div>
-
     </body>
 </html>

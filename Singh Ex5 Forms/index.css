@@ -1,0 +1,21 @@
+body {
+    background-color: #323232;
+    color: white; font-family: sans-serif;
+}
+.round
+{
+    border-radius: 10px;
+}
+.center {
+    margin: 0 auto;
+    width: 50%;
+}
+.center-text {
+    text-align: center;
+}
+.std-text-field{
+    width: 10vw; height: 3vh;
+}
+.lg-text-area{
+    width: 20vw; height: 10vh;
+}

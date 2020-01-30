@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- ID: 4, Date: 1/23/2019, Assignment: Forms -->
+<html lang="en">
+    <head>
+        <title>How does the form know what it is?</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta property="og:title" content="ID 4"/>
+        <meta property="og:description" content="CSI"/>
+        <link rel="stylesheet" href="index.css"> <!-- import styling-->
+    </head>
+    <body>
+        <ul>
+            <lix class="nav-item ">Hi</lix>
+        </ul>
+        <h1 class="center-text">How does the form know what it is?</h1>
+        <br><br>
+        <fieldset class="center" style="border-radius: 2%;">
+            <legend class="center-text">The form knows what it is because it knows what it isn't.</legend>
+            <form action="thank.html" method="GET">
+                <div id="name-wrap container">
+                    <p>What is the form's name?</p>
+                    <input class="round std-text-field" type="text" name="name" value="" required autofocus/>
+                    <br><br>
+                </div>
+                <div id="gender-wrap container">
+                    <p>What is the form's gender?</p>
+                    <input type="radio" name="gender" value="male"> Male
+                    <br>
+                    <input type="radio" name="gender" value="female"> Female
+                    <br>
+                    <input type="radio" name="gender" value="other"> Other
+                    <br><br>
+                </div>
+                <div id="hobbies-wrap container">
+                    <p>What are the form's hobbies?</p>
+                    <input type="checkbox" name="hobby" value="skiing"> Skiing
+                    <br>
+                    <input type="checkbox" name="hobby" value="reading"> Reading
+                    <br>
+                    <input type="checkbox" name="hobby" value="reddit"> Browsing Reddit
+                    <br>
+                    <input type="checkbox" name="hobby" value="network"> Creating network layouts
+                    <br>
+                    <input type="checkbox" name="hobby" value="other"> Other
+                    <br><br>
+                </div>
+                <div id="power-wrap container">
+                    <p>When did the form recieve all of its computational resources?</p>
+                    <input type="date" name="resources" value="resources" required>
+                    <br><br>
+                </div>
+                <div id="password-wrap container">
+                    <p>What is the form's password?</p>
+                    <input class="round std-text-field" type="password" name="password" value="" required/>
+                    <br><br>
+                </div>
+                <div id="rick-wrap container"> <!-- One could say, a rick roll?-->
+                    <p>What will Rick Astley never do?</p>
+                    <textarea name="rick" class="round lg-text-area" minlength="30" maxlength="100" required></textarea><br>
+                </div>
+                <div id="rick2-wrap container"> <!-- One could say, a rick roll?-->
+                    <p>Will Rick Astley ever say goodbye?</p>
+                    <input type="text" name="rick" class="round std-text-field" maxlength="50" required></input>
+                </div>
+                <br>
+                <div id="end-user-engagement-wrap container">
+                    <input type="submit" class="round" value="Submit request" />
+                    <br><br>
+                    <input type="reset" class="round" value="Reset" />
+                </div>
+            </form>
+        </fieldset>
+    </body>
+</html>

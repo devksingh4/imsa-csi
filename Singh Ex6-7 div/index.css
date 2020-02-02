@@ -1,87 +1,92 @@
 @import url('roboto.css');
-
-body {
-    background-image: url("back.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
-    overflow-x: hidden;
+ body {
+	background-image: url("back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	overflow-x: hidden;
 }
-
 .center {
-    margin: 0 auto;
-    width: 50%;
+	margin: 0 auto;
+	width: 50%;
 }
 .center-text {
-    text-align: center;
+	text-align: center;
 }
-.std-text-field{
-    width: 10vw; height: 3vh;
+.std-text-field {
+	width: 10vw;
+	height: 3vh;
 }
-.lg-text-area{
-    width: 20vw; height: 10vh;
+.lg-text-area {
+	width: 20vw;
+	height: 10vh;
 }
-
-
 .container {
-    background-color: #323233;
-    border: 3px solid;
-    color: wheat;
+	background-color: #323233;
+	border: 3px solid;
+	color: wheat;
 }
-
 .content-wrap {
-    background-color: lightblue;
+	background-color: lightblue;
 }
 .italic {
-    font-style: italic;
+	font-style: italic;
 }
-.nav-wrap { 
-    display: flex; /* display mode flex allows using a more modern layout and scaling to many different screen types by providing a more efficient way to lay out HTML in a flex container */
-    list-style-type: none; /* remove bulleting */
-    padding-top: 0px;
-    font-size: 1.5em;
-    background-color: #323233;
+.nav-wrap {
+    /* display mode flex allows using a more modern layout and scaling to many different screen types by providing a more efficient way to lay out HTML in a flex container */
+    display: flex;
+    /* remove bulleting */
+	list-style-type: none;
+	padding-top: 0px;
+	font-size: 1.5em;
+	background-color: #323233;
     width: 100%;
-    align-items: center; /* flexbox property to align items vertically */
-    justify-content: flex-start; /*flex-start; align all items to left*/
-    margin: 0px; 
-    height: 7vh;
-    flex-flow: row nowrap; /*set direction of content for navbar and do not allow wrapping*/
-    font-style: bold;
-    flex-shrink: 2;
+    /* flexbox property to align items vertically */
+    align-items: center;
+    /*align all items to left*/
+	justify-content: flex-start;
+	margin: 0px;
+	height: 7vh;
+	flex-flow: row nowrap;
+	/*set direction of content for navbar and do not allow wrapping*/
+	font-style: bold;
+	flex-shrink: 2;
 }
 
-.nav-item:hover { /*Set styling on when element is hovered over */
-    background-color: black;
+/*Set styling on when element is hovered over */
+.nav-item:hover {
+	background-color: black;
 }
+
 .nav-item {
-    padding: 10px;
-    color: #323232;
-    opacity: 0.5;
+	padding: 10px;
+	color: #323232;
+	opacity: 0.5;
 }
 
 /* remove link styling on text for navbar*/
 .nav-item a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 /*Setting border, width, and height attributes for all divs */
 div {
-    height: inherit; 
-    width: inherit;
-    border: dotted 1px;
+	height: inherit;
+	width: inherit;
+	border: dotted 1px;
 }
-
 .padding-3 {
-    padding: 3em
+	padding: 3em
 }
 
+/*flexbox as defined in comments above */
 .flex-container {
-    display: flex; /*flexbox as defined in comments above */
+	display: flex;
 }
 
+/* center item along main axis (currently x axis) */
 .flex-center {
-    justify-content: center; /* center item along main axis (currently x axis) */
+	justify-content: center;
 }

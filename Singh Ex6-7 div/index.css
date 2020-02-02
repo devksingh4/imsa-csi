@@ -1,16 +1,14 @@
+@import url('roboto.css');
+
 body {
     background-image: url("back.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: darkslategray; 
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
     overflow-x: hidden;
 }
-.round
-{
-    border-radius: 10px;
-}
+
 .center {
     margin: 0 auto;
     width: 50%;
@@ -24,13 +22,10 @@ body {
 .lg-text-area{
     width: 20vw; height: 10vh;
 }
-li {
-    display: inline;
-}
 
 
 .container {
-    background-color: #323232;
+    background-color: #323233;
     border: 3px solid;
     color: wheat;
 }
@@ -38,22 +33,26 @@ li {
 .content-wrap {
     background-color: lightblue;
 }
-
-.nav-wrap {
-    display: inline-flex;
-    list-style-type: none;
+.italic {
+    font-style: italic;
+}
+.nav-wrap { 
+    display: flex; /* display mode flex allows using a more modern layout and scaling to many different screen types by providing a more efficient way to lay out HTML in a flex container */
+    list-style-type: none; /* remove bulleting */
     padding-top: 0px;
     font-size: 1.5em;
     background-color: #323233;
     width: 100%;
-    align-items: center; 
+    align-items: center; /* flexbox property to align items vertically */
+    justify-content: flex-start; /*flex-start; align all items to left*/
     margin: 0px; 
     height: 7vh;
+    flex-flow: row nowrap; /*set direction of content for navbar and do not allow wrapping*/
+    font-style: bold;
+    flex-shrink: 2;
 }
-.nav-item:hover {
-    background-color: black;
-}
-.nav-item:active {
+
+.nav-item:hover { /*Set styling on when element is hovered over */
     background-color: black;
 }
 .nav-item {
@@ -62,14 +61,27 @@ li {
     opacity: 0.5;
 }
 
-/* remove link styling on text */
+/* remove link styling on text for navbar*/
 .nav-item a {
     text-decoration: none;
     color: white;
 }
 
+/*Setting border, width, and height attributes for all divs */
 div {
-    height: inherit;
+    height: inherit; 
     width: inherit;
-    border: dotted 2px;
+    border: dotted 1px;
+}
+
+.padding-3 {
+    padding: 3em
+}
+
+.flex-container {
+    display: flex; /*flexbox as defined in comments above */
+}
+
+.flex-center {
+    justify-content: center; /* center item along main axis (currently x axis) */
 }

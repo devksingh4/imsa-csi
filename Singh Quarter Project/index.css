@@ -1,0 +1,53 @@
+@import url('roboto.css');
+ body {
+    background-image: url("white.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	overflow-x: hidden;
+
+}
+
+.nav-wrap {
+    /* display mode flex allows using a more modern layout and scaling to many different screen types by providing a more efficient way to lay out HTML in a flex container */
+    display: flex;
+    /* remove bulleting */
+	list-style-type: none;
+	font-size: 1.5em;
+	background-color: #323233;
+    width: 100%;
+    /* flexbox property to align items vertically */
+    align-items: center;
+    /*align all items to left*/
+	justify-content: flex-start;
+	margin: 0px;
+	height: 7vh;
+	flex-flow: row nowrap;
+	/*set direction of content for navbar and do not allow wrapping*/
+	font-style: bold;
+    flex-shrink: 2; /* Shrink factor if shrinking neccessary*/
+    padding: 0px /* Remove padding */
+}
+
+.nav-item:hover {
+	background-color: black;
+}
+
+.nav-item {
+	padding: 10px;
+	color: #323232;
+	opacity: 0.5;
+}
+
+/* remove link styling on text for navbar*/
+.nav-item a {
+	text-decoration: none;
+	color: white;
+}
+
+#container {
+    display: flex; 
+    justify-content: center; 
+    margin: 0px;
+}

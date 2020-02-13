@@ -22,7 +22,7 @@
     /*align all items to left*/
 	justify-content: flex-start;
 	margin: 0px;
-	height: 7vh;
+	height: 5vh;
 	flex-flow: row nowrap;
 	/*set direction of content for navbar and do not allow wrapping*/
 	font-style: bold;
@@ -35,7 +35,7 @@
 }
 
 .nav-item {
-	padding: 10px;
+	margin: 3vw;
 	color: #323232;
 	opacity: 0.5;
 }
@@ -50,4 +50,19 @@
     display: flex; 
     justify-content: center; 
     margin: 0px;
+}
+
+.active a {
+	color: black
+}
+
+.footer {
+	text-align: center;
+	color: white; 
+	background-color: #382e31;
+	
+}
+
+.content {
+	margin: 2vw;
 }

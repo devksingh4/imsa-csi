@@ -6,7 +6,9 @@
 	font-family: 'Roboto', sans-serif;
 	margin: 0px;
 	overflow-x: hidden;
-
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
 }
 
 .nav-wrap {
@@ -56,13 +58,16 @@
 	color: black
 }
 
-.footer {
-	text-align: center;
-	color: white; 
-	background-color: #382e31;
-	
-}
-
 .content {
 	margin: 2vw;
+	flex: 1 0 auto;
+}
+  
+  
+footer {
+	flex-shrink: 0;
+	background-color: #323232;
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
 }

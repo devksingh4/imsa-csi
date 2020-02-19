@@ -1,7 +1,7 @@
 @import url('roboto.css');
  body {
     background-image: url("white.png");
-	background-size: cover
+	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Roboto', sans-serif;
 	margin: 0px;
@@ -10,7 +10,7 @@
 	flex-direction: column;
 	height: 100vh;
 }
-
+/* Advanced feature: using flexbox and other modern attributes such as 'em' and 'vh, vw' to have modern scaling and layout*/
 .nav-wrap {
     /* display mode flex allows using a more modern layout and scaling to many different screen types by providing a more efficient way to lay out HTML in a flex container */
     display: flex;

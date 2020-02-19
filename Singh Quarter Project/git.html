@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Goal 4: UN Sustainable Development Goals</title> <!--This title does not really make sense-->
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+	<meta name="viewport" activecontent="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Set scaling properties-->
+	<meta property="og:title" content="UN SDG 4" />
+	<!-- Set preview websitIe title-->
+	<meta property="og:description" content="CSI" />
+	<!-- Set preview website description-->
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<ul class="nav-wrap" style="display: flex; justify-content: center;">
+		<li class="nav-item"><a href="index.html"><img src="log.png" height="35"></a></li>
+		<li class="nav-item"><a href="about.html">The 17 Goals</a></li>
+        <li class="nav-item"><a href="atw.html">Goal 4 Around the World</a></li>
+		<li class="nav-item active"><a href="git.html">Get in Touch</a></li>
+	</ul>
+	<br><br>
+	<div id="container">
+		<div class="h-center">
+            <h1 style="font-size: 2.5em; text-align: center;">Get in Touch</h1>
+		</div>
+	</div>
+	<div class="content">
+		<fieldset class="center" style="border-radius: 2%;">
+            <legend class="center-text">We'd love to connect with you</legend>
+            <form action="thank.html" method="GET">
+                <div id="name-wrap">
+                    <p>What is your name?</p>
+                    <input class="round std-text-field" type="text" name="name" value="" required autofocus/>
+                    <br><br>
+				</div>
+				<div id="name-wrap">
+                    <p>What is your email address?</p>
+                    <input class="round std-text-field" type="email" name="email" value="" required/>
+                    <br><br>
+                </div>
+                <div id="phone-wrap">
+                    <p>What is your phone number?</p>
+                    <input class="round std-text-field" type="tel" name="resources" value="" required>
+                    <br><br>
+                </div>
+                <div id="channel-wrap">
+                    <p>How would you like us to contact you?</p>
+                    <select id = "myList">
+                        <option value = "phone">Phone</option>
+                        <option value = "email">Email</option>
+                      </select>
+                </div>
+                <div id="aspects-wrap">
+                    <p>What aspects of education do you believe are important?</p>
+                    <input type="checkbox" name="aspect" value="avail"> Availability to all
+                    <br>
+                    <input type="checkbox" name="aspect" value="enjoy"> Enjoyability
+                    <br>
+                    <input type="checkbox" name="aspect" value="isma"> Igniting and nurturing creative, ethical, scientific minds that advance the human condition.
+                    <br>
+                    <input type="checkbox" name="aspect" value="indiv"> Individuality of students
+                    <br>
+                    <input type="checkbox" name="aspect" value="other"> Other
+                    <br><br>
+                </div>
+                <div id="message-wrap">
+                    <p>Send us a message!</p>   
+                    <input class="round lg-text-area" type="text" name="name" value="" required autofocus/>
+                    <br><br>
+                </div>
+                <div id="end-user-engagement-wrap">
+                    <input type="submit" class="round" style="height: 4vh; background-color: azure;" value="Submit!" />
+                    <input type="reset" class="round" style="height: 4vh; background-color: azure;" value="Reset" />
+                </div>
+            </form>
+		</fieldset>
+	</div>
+</body> 
+</html>

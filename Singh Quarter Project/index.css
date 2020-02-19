@@ -1,7 +1,7 @@
 @import url('roboto.css');
  body {
     background-image: url("white.png");
-	background-size: cover;
+	background-size: cover
 	background-repeat: no-repeat;
 	font-family: 'Roboto', sans-serif;
 	margin: 0px;
@@ -70,4 +70,22 @@ footer {
 	color: white;
 	text-align: center;
 	font-size: 1.5em;
+}
+
+.round
+{
+    border-radius: 10px;
+}
+.center {
+    margin: 0 auto;
+    width: 50%;
+}
+.center-text {
+    text-align: center;
+}
+.std-text-field{
+    width: 10vw; height: 3vh;
+}
+.lg-text-area{
+    width: 20vw; height: 10vh;
 }

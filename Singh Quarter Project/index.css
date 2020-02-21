@@ -79,7 +79,7 @@ footer {
 }
 .center {
     margin: 0 auto;
-    width: 50%;
+    width: auto;
 }
 .center-text {
     text-align: center;
@@ -89,4 +89,19 @@ footer {
 }
 .lg-text-area{
     width: 20vw; height: 10vh;
+}
+
+.center-input {
+	display: block; 
+	margin: 0 auto;
+}
+
+input[type=checkbox], input[type=radio] {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+input[type=radio] {
+  bottom: 2px;
 }

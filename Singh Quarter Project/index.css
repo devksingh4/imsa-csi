@@ -1,8 +1,11 @@
 @import url('roboto.css');
  body {
-    background-image: linear-gradient(-90deg, #323232, grey);
-	background-size: cover;
-	background-repeat: repeat;
+    background-image: url(back.jpg);
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; 
+	background-size: 100% 100%;
+	background-attachment: fixed;
 	font-family: 'Roboto', sans-serif;
 	margin: 0px;
 	overflow-x: hidden;

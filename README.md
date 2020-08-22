@@ -1,6 +1,7 @@
-# imsa-csi
-IMSA CSI files
-Copyright Dev Singh
+# imsa-csi-html
+IMSA CSI - HTML files
+See the Python files [here](https://github.com/devksingh4/imsa-csi-python).
+
 # Notice to IMSA Students
 While this repository is public, IMSA Students should take note that copying and using my code in your own CSI projects is discouraged and may be punishable under the Academic Dishonesty policies in the IMSA student handbook. Furthermore, this code is not inteded to aid anyone in cheating or other forms of Academic Dishonesty and is intended to be treated as code off limits for collaboration unless allowed the by the relevant course instructors. All code use should be used under the BSD 3-clause license, which is available under the file `LICENSE`. I would encourage that you read this license before using this code (it's short!). 
 
